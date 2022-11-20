@@ -1,1 +1,78 @@
+* {
+    box-sizing: border-box;
+}
 
+div {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {
+    border: 3px solid black;   
+    font-weight: bold;
+    float: right;
+    padding: 5px 20px;
+}
+
+.textbox {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+#title1{
+    background-color: pink;
+}
+
+#title2 {
+    background-color: skyblue;
+}
+
+#title3 {
+    background-color: yellowgreen;
+}
+
+.recipe {
+    clear: right;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+@media(min-width: 992px){
+    .col-lg-4 {
+        border: 2px solid black;
+        width: 47.5%;
+        margin: 1.15%;
+        float: left;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .col-md-6 {
+        border: 2px solid black;
+        width: 47.5%;
+        margin: 1.15%;
+        float: left;
+    }
+    .col-md-12 {
+        border: 2px solid black;
+        width: 97%;
+        margin: 1.15%;
+        float: left;
+    }
+}
+@media(max-width:767px){
+    .col-sm-12 {
+        border: 2px solid black;
+        width: 97%;
+        margin: 1.15%;
+        float: left;
+    }
+}
+
+
+.textbox{
+    background-color: grey;
+}
